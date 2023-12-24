@@ -1,11 +1,16 @@
+
 <template>
-  <Tutorial />
+  <div class="p-8">
+    <p>top page</p>
+  </div>
 </template>
-
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'IndexPage',
-})
-</script>
+  
+  <script>
+  export default {
+    head: {
+    bodyAttrs: {
+      class: 'text-blue-600'
+    }
+  }
+  }
+  </script>
